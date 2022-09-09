@@ -1,31 +1,83 @@
 @charset "utf-8";
-      *{
-        margin: 0px;
-        padding: 0px;
-      }
-        div{
-            text-align: center;
-            margin: auto;
-            border-radius: 15px;
-            padding: 10px;
-            color:aliceblue;
-            padding: auto;
-            max-width: 700px;
-            min-width: 100px;
-            text-align: justify;
-            }
-   
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+}
+header>h1{
+    color: aliceblue;
+    padding-top: 50px;
+    font-size: 8vw;
+    font-variant: small-caps;
+
+}
+header>p{
+    color: aliceblue;
+    padding-bottom: 50px;
+    font-size: 2vw;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 2vw;
+}
+a:hover{
+    text-decoration: underline;
+} 
+
+section{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3vw;
+}
+
+section.imagem{
+    background-color: darkgray;
+    color: aliceblue;
     
-    body{
-        background-image: url('imagem/647547.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-attachment: fixed;
-        margin: auto;
-        
-        }
-        
-    .title{
-        text-align: center;
-    }
+}
+
+section>p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    font-size: 3vw;
+}
+
+section#img01{
+    background-image: url('modulo3.html/1ex0001/imagem/647547.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 2px 2px black;
+}
+section#img02{
+    background-image: url('modulo3.html/1ex0001/imagem/742767.png');
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 2px 2px 2px 2px black;
+
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.399);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2vw;
+}
+footer>a{
+    font-size: 2vw;
+}
+
