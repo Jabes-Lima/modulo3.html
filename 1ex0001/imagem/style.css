@@ -54,13 +54,13 @@ section.normal{
 
 section#img01{
     background-image: url('647547.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     box-shadow: inset 2px 2px 2px 2px black;
 }
 section#img02{
     background-image: url('742767.png');
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
     box-shadow: inset 2px 2px 2px 2px black;
 
